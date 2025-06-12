@@ -1,0 +1,23 @@
+
+[
+    {
+        "nombre": "Tetris_Oco_I",
+        "url_imagen": "/img/I_tetris.png"  
+    },
+    {
+        "nombre": "Tetris_Oco_L",
+        "url_imagen": "/img/L_tetris.png" 
+    },
+    {
+        "nombre": "Tetris_Oco_T",
+        "url_imagen": "/img/T_tetris.png" 
+    },
+    {
+        "nombre": "Tetris_Oco_Cube",
+        "url_imagen": "/img/Cube_tetris.png"
+    },
+    {
+        "nombre": "Tetris_Oco_S",
+        "url_imagen": "/img/S_tetris.png"  
+    }
+]

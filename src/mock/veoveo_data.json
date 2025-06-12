@@ -1,0 +1,1442 @@
+[
+    {
+        "Objeto": "Tenedor",
+        "Pistas": [
+            "Se usa para pinchar la comida.",
+            "Tiene varias puntas.",
+            "Es de metal, usualmente.",
+            "Lo encuentras a la izquierda del plato."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cuchillo",
+        "Pistas": [
+            "Se usa para cortar alimentos.",
+            "Tiene un filo y un mango.",
+            "Va a la derecha del plato.",
+            "Puede ser liso o dentado."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cuchara",
+        "Pistas": [
+            "Se usa para sopas o postres.",
+            "Tiene una forma cóncava.",
+            "Puede ser grande o pequeña.",
+            "A menudo se usa para remover bebidas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Plato",
+        "Pistas": [
+            "Es donde se sirve la comida.",
+            "Puede ser hondo o llano.",
+            "Suele ser de cerámica o porcelana.",
+            "Lo encuentras frente a ti en la mesa."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Vaso",
+        "Pistas": [
+            "Se usa para beber líquidos.",
+            "Es de cristal o plástico.",
+            "No tiene asa y es cilíndrico.",
+            "Lo llenas con agua, refresco o jugo."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Servilleta",
+        "Pistas": [
+            "Es de tela o papel.",
+            "Se usa para limpiarse la boca.",
+            "Se coloca en el regazo antes de comer.",
+            "Ayuda a mantener la limpieza personal en la mesa."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Mesa",
+        "Pistas": [
+            "Es el centro de la reunión para comer.",
+            "Tiene patas y una superficie plana.",
+            "Puede ser redonda, cuadrada o rectangular.",
+            "Sobre ella se colocan los platos y cubiertos."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Silla",
+        "Pistas": [
+            "Es para sentarse cómodamente.",
+            "Tiene un respaldo para el apoyo.",
+            "Acompaña a la mesa.",
+            "Indispensable para disfrutar la comida sentado."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Menú",
+        "Pistas": [
+            "Es una lista de los platillos.",
+            "Te ayuda a decidir qué comer y cuánto cuesta.",
+            "Puede ser de papel, digital o en una pizarra.",
+            "Se te entrega al llegar al restaurante."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Salero",
+        "Pistas": [
+            "Contiene un condimento blanco esencial.",
+            "Acompaña al pimentero en la mesa.",
+            "Tiene pequeños agujeros para el contenido.",
+            "Realza el sabor de cualquier platillo."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Árbol",
+        "Pistas": [
+            "Tiene tronco, ramas y hojas.",
+            "Produce oxígeno y da sombra.",
+            "Puede dar frutos.",
+            "Se encuentra en parques y bosques."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Teléfono",
+        "Pistas": [
+            "Sirve para hablar con personas a distancia.",
+            "Tiene botones o una pantalla táctil.",
+            "Puede ser fijo o móvil.",
+            "Lo usas para comunicarte."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Libro",
+        "Pistas": [
+            "Contiene historias o información.",
+            "Tiene muchas páginas.",
+            "Se lee con los ojos.",
+            "Lo encuentras en librerías o bibliotecas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Pelota",
+        "Pistas": [
+            "Es redonda y se usa para jugar.",
+            "Puede rebotar.",
+            "Se usa en muchos deportes.",
+            "Puede ser de diferentes tamaños y materiales."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Coche / Automóvil",
+        "Pistas": [
+            "Tiene cuatro ruedas.",
+            "Se usa para viajar en tierra.",
+            "Necesita gasolina o electricidad.",
+            "Lo conduces por la calle."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Reloj",
+        "Pistas": [
+            "Sirve para saber la hora.",
+            "Puede ir en la pared o en la muñeca.",
+            "Tiene manecillas o números digitales.",
+            "Te ayuda a ser puntual."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Lápiz",
+        "Pistas": [
+            "Sirve para escribir o dibujar.",
+            "Deja una marca de grafito.",
+            "Tiene goma para borrar.",
+            "Se afila para usarse."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Zapato",
+        "Pistas": [
+            "Se usa en los pies.",
+            "Protege y cubre esta parte del cuerpo.",
+            "Viene en pares.",
+            "Puede tener agujetas o velcro."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Llave",
+        "Pistas": [
+            "Es pequeña y de metal.",
+            "Se usa para abrir o cerrar.",
+            "Va en una cerradura.",
+            "Puedes tener muchas en un llavero."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Nube",
+        "Pistas": [
+            "Está en el cielo.",
+            "Es de color blanco o gris.",
+            "Está hecha de vapor de agua.",
+            "Puede traer lluvia."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Pimentero",
+        "Pistas": [
+            "Contiene un condimento oscuro y molido.",
+            "Se usa para darle un toque picante o aromático.",
+            "Es el compañero inseparable del salero.",
+            "A veces tiene un mecanismo para moler los granos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Servilletero",
+        "Pistas": [
+            "Suele estar en el centro de la mesa.",
+            "Organiza y dispensa un tipo de papel absorbente.",
+            "Mantiene limpios los pañuelos pequeños para los comensales.",
+            "Puede ser de metal, madera o plástico y tiene una ranura."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Panera",
+        "Pistas": [
+            "Es un recipiente pequeño o cesta.",
+            "Contiene un alimento básico que se come con la comida.",
+            "A menudo llega antes de tu platillo principal, con mantequilla.",
+            "Puede ser de mimbre, tela o metal."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Refrigerador",
+        "Pistas": [
+            "Es un electrodoméstico grande y potente.",
+            "Mantiene los alimentos frescos y seguros a bajas temperaturas.",
+            "Está en la cocina y almacena ingredientes.",
+            "Tiene compartimentos para diferentes tipos de productos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Horno",
+        "Pistas": [
+            "Es un electrodoméstico de cocina.",
+            "Se usa para hornear, asar o calentar alimentos.",
+            "Alcanza altas temperaturas por dentro.",
+            "Puede ser de gas o eléctrico."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cocinero / Chef",
+        "Pistas": [
+            "Es una persona clave que trabaja en la cocina.",
+            "Prepara la comida según las recetas y estándares.",
+            "Suele usar un gorro y un delantal.",
+            "Dirige la preparación de los platillos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Camarero / Mesero",
+        "Pistas": [
+            "Es una persona que te atiende en la mesa.",
+            "Toma tu orden y la lleva a la cocina.",
+            "Te trae la comida y la bebida.",
+            "Responde a tus preguntas sobre el menú."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cuenta / Factura",
+        "Pistas": [
+            "Es un papel con números y un desglose.",
+            "Indica el costo total de lo consumido y los impuestos.",
+            "La pides al final de tu visita para pagar.",
+            "Detalla cada artículo y su precio."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Reservación",
+        "Pistas": [
+            "Es un acuerdo para asegurar un lugar.",
+            "Se hace con antelación, por teléfono o internet.",
+            "Te garantiza una mesa a una hora específica.",
+            "Es útil en restaurantes muy concurridos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Baño / Aseos",
+        "Pistas": [
+            "Es una parte esencial de cualquier establecimiento.",
+            "Lo buscas para lavarte las manos.",
+            "Generalmente tiene un lavabo y un inodoro.",
+            "Suele estar señalizado con un letrero."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Computadora",
+        "Pistas": [
+            "Tiene una pantalla y un teclado.",
+            "Sirve para trabajar, estudiar o jugar.",
+            "Puede ser de escritorio o portátil.",
+            "Necesita electricidad para funcionar."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Avión",
+        "Pistas": [
+            "Vuela por el cielo.",
+            "Tiene alas y motores.",
+            "Transporta personas o carga a largas distancias.",
+            "Aterriza en un aeropuerto."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Balón de fútbol",
+        "Pistas": [
+            "Es redondo y se patea.",
+            "Es el centro de un deporte muy popular.",
+            "Se juega en una cancha con porterías.",
+            "Se mueve con los pies."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Guitarra",
+        "Pistas": [
+            "Es un instrumento musical de cuerda.",
+            "Se toca con los dedos o una púa.",
+            "Puede ser acústica o eléctrica.",
+            "Produce melodías y acordes."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Cámara de fotos",
+        "Pistas": [
+            "Sirve para capturar imágenes.",
+            "Tiene un lente y un disparador.",
+            "Puede ser digital o de rollo.",
+            "Congela momentos en el tiempo."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Bicicleta",
+        "Pistas": [
+            "Tiene dos ruedas.",
+            "Se mueve pedaleando.",
+            "No usa motor, es ecológica.",
+            "Se usa para transporte o ejercicio."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Gafas / Lentes",
+        "Pistas": [
+            "Se usan en la cara, sobre la nariz.",
+            "Ayudan a mejorar la vista o proteger los ojos.",
+            "Pueden ser de sol o graduadas.",
+            "Tienen dos cristales o micas."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Paraguas",
+        "Pistas": [
+            "Se usa cuando llueve.",
+            "Se abre y se cierra.",
+            "Tiene un mango y varillas.",
+            "Te protege del agua."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Semáforo",
+        "Pistas": [
+            "Está en la calle.",
+            "Tiene luces de tres colores.",
+            "Regula el tráfico.",
+            "Indica cuándo detenerse, esperar o avanzar."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Globo terráqueo",
+        "Pistas": [
+            "Es una representación del planeta Tierra.",
+            "Es redondo y gira sobre un eje.",
+            "Muestra continentes y océanos.",
+            "Se usa para estudiar geografía."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Hostess / Anfitrión",
+        "Pistas": [
+            "Es la primera persona que te recibe al entrar.",
+            "Te asigna una mesa disponible y te acompaña.",
+            "Maneja las reservaciones y la lista de espera.",
+            "Es la cara de bienvenida del establecimiento."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Comandera",
+        "Pistas": [
+            "Es un pequeño cuaderno, libreta o dispositivo electrónico.",
+            "El camarero lo usa para apuntar con precisión las órdenes.",
+            "La información va de la mesa a la cocina o barra.",
+            "Asegura que la orden sea correcta y completa."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cristalería (general)",
+        "Pistas": [
+            "Es un conjunto de utensilios variados para beber.",
+            "Se refiere a todos los vasos y copas del lugar.",
+            "Requiere un lavado y pulido delicado para evitar manchas.",
+            "Su calidad puede indicar el nivel del restaurante."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Maitre d'",
+        "Pistas": [
+            "Es una persona de alto rango en el salón.",
+            "Supervisa al personal de servicio.",
+            "Asegura que la experiencia del cliente sea impecable.",
+            "Es el encargado principal del comedor."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Bufé / Buffet",
+        "Pistas": [
+            "Es un tipo de servicio de comida.",
+            "Los comensales eligen sus platillos de una mesa grande.",
+            "Ofrece una variedad de opciones.",
+            "La comida se presenta en recipientes calentados."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Mantelería",
+        "Pistas": [
+            "Es un conjunto de textiles para la mesa.",
+            "Incluye el mantel y las servilletas de tela.",
+            "Aporta elegancia y protege la mesa.",
+            "Puede ser de algodón, lino o poliéster."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Campana de chef (extractor)",
+        "Pistas": [
+            "Es un equipo grande sobre la estufa.",
+            "Su función es eliminar humos y olores.",
+            "Tiene un ventilador potente.",
+            "Es esencial para mantener el aire limpio en la cocina."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Terminal de pago (POS)",
+        "Pistas": [
+            "Es un dispositivo electrónico en la caja.",
+            "Se usa para procesar tarjetas de crédito/débito.",
+            "Emite recibos de compra.",
+            "Permite a los clientes pagar su cuenta."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Estación de limpieza",
+        "Pistas": [
+            "Es un área en la cocina o detrás del bar.",
+            "Aquí se lavan y desinfectan los utensilios.",
+            "Tiene fregaderos grandes y productos específicos.",
+            "Es vital para la higiene del restaurante."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Trastero / Almacén",
+        "Pistas": [
+            "Es un cuarto o área dentro del restaurante.",
+            "Aquí se guardan los ingredientes y suministros.",
+            "Debe estar organizado y limpio.",
+            "Es donde el chef guarda sus tesoros."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Telescopio",
+        "Pistas": [
+            "Se usa para ver objetos lejanos.",
+            "Permite observar estrellas y planetas.",
+            "Tiene lentes o espejos.",
+            "Se usa en la astronomía."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Microscopio",
+        "Pistas": [
+            "Se usa para ver objetos muy pequeños.",
+            "Permite observar células o bacterias.",
+            "Tiene lentes de aumento.",
+            "Se usa en laboratorios de ciencia."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Brújula",
+        "Pistas": [
+            "Es un instrumento para orientarse.",
+            "Tiene una aguja que siempre apunta al norte.",
+            "Se usa en navegación o senderismo.",
+            "Ayuda a encontrar el camino."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Termómetro",
+        "Pistas": [
+            "Se usa para medir la temperatura.",
+            "Puede ser digital o de mercurio.",
+            "Lo usas para saber si tienes fiebre.",
+            "Indica grados Celsius o Fahrenheit."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Batería musical",
+        "Pistas": [
+            "Es un conjunto de instrumentos de percusión.",
+            "Tiene tambores y platillos.",
+            "Se toca con baquetas.",
+            "Crea el ritmo en una banda."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Escáner (de documentos)",
+        "Pistas": [
+            "Es un dispositivo electrónico.",
+            "Convierte documentos físicos en digitales.",
+            "Tiene una cama de cristal y una luz.",
+            "Se usa para guardar copias de papeles."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Acuario",
+        "Pistas": [
+            "Es un tanque de cristal con agua.",
+            "Aloja vida marina o de agua dulce.",
+            "Necesita un filtro y una bomba.",
+            "Puedes ver peces nadando dentro."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Semáforo peatonal",
+        "Pistas": [
+            "Está en las esquinas de las calles.",
+            "Tiene figuras humanas que se iluminan.",
+            "Indica cuándo puedes cruzar la calle.",
+            "Puede ser rojo o verde."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Binoculares",
+        "Pistas": [
+            "Son dos tubos unidos con lentes.",
+            "Se usan para ver objetos lejanos con ambos ojos.",
+            "Aumentan el tamaño de lo que miras.",
+            "Útiles para observar aves o eventos deportivos."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "GPS (Sistema de Posicionamiento Global)",
+        "Pistas": [
+            "Es una tecnología de navegación.",
+            "Usa satélites para determinar la ubicación.",
+            "Te dice cómo llegar a un lugar.",
+            "Puede estar en tu coche o teléfono."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Copa de vino",
+        "Pistas": [
+            "Es un tipo de vaso con tallo.",
+            "Se usa para una bebida fermentada de uva.",
+            "Su forma ayuda a apreciar el aroma.",
+            "Hay diferentes tamaños según la variedad de la bebida."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Sacacorchos",
+        "Pistas": [
+            "Es una herramienta para descorchar botellas.",
+            "Tiene una espiral metálica y palanca.",
+            "Indispensable para servir bebidas con tapón de corcho.",
+            "A menudo se usa con una botella de vidrio."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Barra / Bar",
+        "Pistas": [
+            "Es un mostrador largo y elevado.",
+            "Aquí se preparan y sirven las bebidas alcohólicas.",
+            "Algunas personas prefieren sentarse aquí para comer y beber.",
+            "Un bartender trabaja detrás de ella."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Coctelera",
+        "Pistas": [
+            "Es un recipiente con tapa y colador.",
+            "Se usa para mezclar bebidas frías.",
+            "El bartender la agita vigorosamente.",
+            "Indispensable para preparar bebidas combinadas."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cenicero",
+        "Pistas": [
+            "Es un recipiente pequeño.",
+            "Se usa para recoger las cenizas de tabaco.",
+            "Puede ser de cristal, metal o cerámica.",
+            "Solo se encuentra en áreas permitidas para fumar."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Encendedor",
+        "Pistas": [
+            "Produce una llama pequeña.",
+            "Se usa para encender cigarros o velas.",
+            "Puede ser de gas o de piedra.",
+            "Un camarero puede tener uno si lo pides."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Licencia de alcohol",
+        "Pistas": [
+            "Es un documento legal.",
+            "Permite vender bebidas restringidas.",
+            "Debe estar visible en el establecimiento.",
+            "Es emitida por el gobierno."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Botellero",
+        "Pistas": [
+            "Es un mueble o estante.",
+            "Sirve para almacenar bebidas en recipientes.",
+            "Común en bares o bodegas de restaurantes.",
+            "Mantiene las botellas organizadas y a la vista."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Servicio de bar",
+        "Pistas": [
+            "Es un área o conjunto de personas.",
+            "Se encarga de preparar y servir bebidas.",
+            "Requiere conocimiento de mixología.",
+            "Es donde se crean los cócteles y tragos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Taburete de bar",
+        "Pistas": [
+            "Es una silla alta sin respaldo.",
+            "Se usa en la barra.",
+            "Permite sentarse a la altura del mostrador.",
+            "Puede girar o ser fijo."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cava de puros",
+        "Pistas": [
+            "Es un mueble especial para tabaco.",
+            "Mantiene la humedad y temperatura controladas.",
+            "Contiene productos para fumar de alta calidad.",
+            "Se encuentra en restaurantes de lujo o salones especiales."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Decantador",
+        "Pistas": [
+            "Es un recipiente de cristal con forma de jarra.",
+            "Se usa para airear bebidas, especialmente vino.",
+            "Ayuda a separar sedimentos en bebidas añejas.",
+            "Mejora los aromas y sabores antes de servir vino."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Sommelier",
+        "Pistas": [
+            "Es una persona especializada en bebidas.",
+            "Su conocimiento se centra en el vino y su servicio.",
+            "Aconseja a los clientes sobre la mejor opción para su comida.",
+            "Se encarga de la bodega y la carta de vinos."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Maridaje",
+        "Pistas": [
+            "Es una técnica de combinación.",
+            "Relaciona bebidas alcohólicas con platillos para realzar sabores.",
+            "Implica un conocimiento profundo de gastronomía y enología.",
+            "Busca la armonía perfecta entre la comida y la bebida para adultos."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Whisky",
+        "Pistas": [
+            "Es una bebida destilada de cereales.",
+            "Suele añejarse en barricas de madera.",
+            "Se sirve en un vaso corto, a veces con hielo.",
+            "Originario de Escocia o Irlanda."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Brandy",
+        "Pistas": [
+            "Es una bebida alcohólica destilada de fruta.",
+            "Comúnmente de uva, pero puede ser de manzana o cereza.",
+            "Suele servirse en una copa balón.",
+            "Se disfruta después de la cena."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Gin Tonic",
+        "Pistas": [
+            "Es un cóctel muy popular.",
+            "Se prepara con una bebida destilada y una tónica.",
+            "Se decora con una rodaja de cítricos.",
+            "Se sirve en una copa de balón o de tubo."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cerveza artesanal",
+        "Pistas": [
+            "Es una bebida fermentada de cereales.",
+            "Elaborada en pequeñas producciones.",
+            "Tiene sabores y aromas más complejos que las comerciales.",
+            "Popular entre conocedores de bebidas lupuladas."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Barman / Bartender",
+        "Pistas": [
+            "Es una persona que trabaja en un área específica.",
+            "Prepara bebidas mezcladas y cócteles.",
+            "Suele tener mucha habilidad con las botellas.",
+            "Está detrás de la barra."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Cenicero de pedestal",
+        "Pistas": [
+            "Es un objeto alto y delgado.",
+            "Se encuentra en las entradas o patios.",
+            "Sirve para desechar restos de tabaco.",
+            "Se usa en zonas al aire libre para fumadores."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Bolsa de Golf",
+        "Pistas": [
+            "Es un objeto largo y con varios compartimentos.",
+            "Sirve para llevar herramientas de un deporte.",
+            "Contiene palos y pelotas.",
+            "Se usa en un campo verde muy grande."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Cafetera",
+        "Pistas": [
+            "Es un electrodoméstico de cocina.",
+            "Prepara una bebida caliente y aromática.",
+            "Puede ser de goteo, expresso o de cápsulas.",
+            "Es indispensable para empezar el día de muchos."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Control Remoto",
+        "Pistas": [
+            "Es pequeño y tiene muchos botones.",
+            "Sirve para cambiar canales o ajustar el volumen.",
+            "Funciona a distancia con aparatos electrónicos.",
+            "Se pierde a menudo entre los cojines del sillón."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Periódico",
+        "Pistas": [
+            "Es de papel impreso.",
+            "Contiene noticias del día.",
+            "Se compra en quioscos o tiendas.",
+            "Mucha gente lo lee con su café por la mañana."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Agenda",
+        "Pistas": [
+            "Es un cuaderno para organizar tareas.",
+            "Tiene fechas y espacios para escribir.",
+            "Ayuda a recordar citas y reuniones.",
+            "Es indispensable para gente ocupada."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Billetera / Cartera",
+        "Pistas": [
+            "Se guarda en el bolsillo o en la bolsa.",
+            "Contiene dinero y tarjetas.",
+            "Es de cuero o material similar.",
+            "Sirve para pagar compras."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Tarjeta de crédito",
+        "Pistas": [
+            "Es un plástico rectangular.",
+            "Sirve para pagar sin usar efectivo.",
+            "Tiene números en relieve y una banda magnética.",
+            "Te permite comprar cosas a crédito."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Corbata",
+        "Pistas": [
+            "Es una prenda de vestir.",
+            "Se anuda alrededor del cuello.",
+            "Se usa con traje formal.",
+            "Puede ser de seda o poliéster."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Portátil / Laptop",
+        "Pistas": [
+            "Es una computadora que se puede llevar a todos lados.",
+            "Tiene pantalla y teclado integrados.",
+            "Funciona con batería.",
+            "Permite trabajar o estudiar desde cualquier lugar."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Sartén",
+        "Pistas": [
+            "Es un utensilio de cocina.",
+            "Tiene un mango y una superficie plana.",
+            "Se usa para freír o saltear alimentos.",
+            "Puede ser de teflón o hierro fundido."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Máquina de escribir",
+        "Pistas": [
+            "Es un dispositivo antiguo para crear documentos.",
+            "Tiene un teclado que imprime letras en papel.",
+            "Hace un sonido característico al teclear.",
+            "Precede a las computadoras en las oficinas."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Tocadiscos",
+        "Pistas": [
+            "Es un aparato para reproducir música.",
+            "Usa discos de vinilo.",
+            "Tiene una aguja que lee los surcos.",
+            "Popular en otra época, ahora es de moda vintage."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Binoculares",
+        "Pistas": [
+            "Son dos tubos unidos con lentes.",
+            "Se usan para ver objetos lejanos con ambos ojos.",
+            "Aumentan el tamaño de lo que miras.",
+            "Útiles para observar aves o eventos deportivos."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "GPS (Sistema de Posicionamiento Global)",
+        "Pistas": [
+            "Es una tecnología de navegación.",
+            "Usa satélites para determinar la ubicación.",
+            "Te dice cómo llegar a un lugar.",
+            "Puede estar en tu coche o teléfono inteligente."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Proyector de diapositivas",
+        "Pistas": [
+            "Es un aparato óptico.",
+            "Sirve para mostrar imágenes en una pantalla grande.",
+            "Usaba pequeños cuadros de película.",
+            "Común en presentaciones antes de los proyectores digitales."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Telescopio",
+        "Pistas": [
+            "Se usa para ver objetos lejanos en el espacio.",
+            "Permite observar estrellas, planetas y galaxias.",
+            "Tiene lentes o espejos muy potentes.",
+            "Se usa en la astronomía para explorar el universo."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Estetoscopio",
+        "Pistas": [
+            "Es un instrumento médico.",
+            "Se usa para escuchar sonidos internos del cuerpo.",
+            "Lo usan los doctores en un chequeo.",
+            "Tiene dos auriculares y una campana."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Caja fuerte",
+        "Pistas": [
+            "Es un contenedor muy resistente.",
+            "Se usa para guardar objetos de valor.",
+            "Tiene una combinación o llave especial.",
+            "Protege documentos importantes o dinero."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Dron",
+        "Pistas": [
+            "Es un aparato volador no tripulado.",
+            "Se controla a distancia.",
+            "Tiene hélices y a menudo una cámara.",
+            "Se usa para fotografía aérea o vigilancia."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Microscopio",
+        "Pistas": [
+            "Se usa para ver objetos muy pequeños.",
+            "Permite observar células o bacterias.",
+            "Tiene lentes de aumento.",
+            "Se usa en laboratorios de ciencia."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Mochila",
+        "Pistas": [
+            "Se lleva en la espalda.",
+            "Sirve para transportar cosas.",
+            "Tiene cierres y compartimentos.",
+            "Ideal para la escuela o viajes."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Crayola",
+        "Pistas": [
+            "Sirve para pintar y dibujar.",
+            "Viene en muchos colores.",
+            "No es un lápiz ni un plumón.",
+            "Es un cilindro de cera de colores."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Muñeca",
+        "Pistas": [
+            "Es un juguete con forma de persona.",
+            "Puede tener ropa y accesorios.",
+            "A veces puede hablar o caminar.",
+            "A muchos niños les gusta jugar con ella."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Bloques de construcción",
+        "Pistas": [
+            "Son piezas de diferentes formas y colores.",
+            "Se unen para crear estructuras.",
+            "Ayudan a construir casas, torres o robots.",
+            "Vienen en sets y son muy populares."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Avión de juguete",
+        "Pistas": [
+            "Es pequeño y vuela por el aire (o se simula).",
+            "Tiene alas y puede ser de plástico o madera.",
+            "Lo lanzas o lo haces volar con la mano.",
+            "Imita a una máquina voladora de verdad."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Patines",
+        "Pistas": [
+            "Se usan en los pies para deslizarse.",
+            "Tienen ruedas abajo.",
+            "Sirven para moverse rápido sin caminar.",
+            "Pueden ser en línea o de cuatro ruedas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Carro de juguete",
+        "Pistas": [
+            "Es una réplica pequeña de un vehículo.",
+            "Tiene ruedas y puede ser de metal o plástico.",
+            "Puedes empujarlo o hacerlo correr por una pista.",
+            "Vienen en muchos modelos, como coches de carreras o camiones."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Osito de peluche",
+        "Pistas": [
+            "Es un juguete suave y abrazable.",
+            "Tiene forma de animal, usualmente un oso.",
+            "Es un compañero para dormir o jugar.",
+            "Hecho de tela y relleno blando."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Burbujero",
+        "Pistas": [
+            "Es un juguete para soplar.",
+            "Crea esferas iridiscentes que flotan.",
+            "Usa un líquido jabonoso.",
+            "Se rompen fácilmente al tocarlas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Columpio",
+        "Pistas": [
+            "Es un asiento que cuelga de una estructura.",
+            "Se balancea hacia adelante y hacia atrás.",
+            "Se encuentra en los parques infantiles.",
+            "Da una sensación de volar."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Random"
+    },
+    {
+        "Objeto": "Sopa",
+        "Pistas": [
+            "Es un platillo líquido y caliente.",
+            "Se come con cuchara.",
+            "Puede tener verduras, pasta o carne.",
+            "Ideal para los días fríos o para empezar la comida."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Pan",
+        "Pistas": [
+            "Es un alimento básico, horneado.",
+            "Puede ser blanco, integral o de diferentes formas.",
+            "Se sirve a menudo con mantequilla.",
+            "Lo encuentras en la panera en la mesa."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Jugo",
+        "Pistas": [
+            "Es una bebida hecha de frutas.",
+            "Puede ser de naranja, manzana o uva.",
+            "Se sirve frío.",
+            "Es dulce y refrescante."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Postre",
+        "Pistas": [
+            "Es un platillo dulce.",
+            "Se come al final de la comida.",
+            "Puede ser pastel, helado o fruta.",
+            "Satisface el antojo de algo dulce."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Refresco",
+        "Pistas": [
+            "Es una bebida con burbujas.",
+            "Viene en una botella o lata.",
+            "Tiene sabores como cola, limón o naranja.",
+            "Es una bebida popular, aunque no siempre la más saludable."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Pizza",
+        "Pistas": [
+            "Es un platillo redondo y plano.",
+            "Tiene salsa de tomate, queso y otros ingredientes.",
+            "Se cocina en un horno.",
+            "Se comparte y se corta en rebanadas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Hamburguesa",
+        "Pistas": [
+            "Es un platillo con carne entre dos panes.",
+            "Puede llevar lechuga, tomate y queso.",
+            "A menudo se come con papas fritas.",
+            "Es una comida rápida muy famosa."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Papas fritas",
+        "Pistas": [
+            "Son de patata y crujientes.",
+            "Suelen ser un acompañamiento.",
+            "Se comen con sal y a veces con cátsup.",
+            "Vienen en un cono o bolsa."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Helado",
+        "Pistas": [
+            "Es un postre frío y cremoso.",
+            "Viene en muchos sabores.",
+            "Se sirve en cono o vaso.",
+            "Se derrite si no lo comes rápido."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    },
+    {
+        "Objeto": "Sándwich",
+        "Pistas": [
+            "Es un platillo entre dos rebanadas de pan.",
+            "Puede llevar jamón, queso, pollo o verduras.",
+            "Es rápido de preparar y comer.",
+            "Ideal para un almuerzo o cena ligera."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Restaurante"
+    }
+]

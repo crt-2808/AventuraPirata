@@ -1,0 +1,842 @@
+[
+    {
+        "Elemento": "Perro",
+        "Pistas_Pictionary": [
+            "Tiene cuatro patas.",
+            "Hace 'guau, guau'.",
+            "Es una mascota leal.",
+            "Le gusta jugar con pelotas."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Sol",
+        "Pistas_Pictionary": [
+            "Brilla en el cielo.",
+            "Nos da luz y calor.",
+            "Es amarillo o naranja.",
+            "Aparece en la mañana."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Casa",
+        "Pistas_Pictionary": [
+            "Tiene un techo y ventanas.",
+            "Es donde vivimos.",
+            "Puede ser grande o pequeña.",
+            "Tiene una puerta."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Árbol",
+        "Pistas_Pictionary": [
+            "Tiene tronco, ramas y hojas.",
+            "Produce oxígeno.",
+            "Puede dar frutos.",
+            "Se encuentra en el bosque."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Flor",
+        "Pistas_Pictionary": [
+            "Es colorida y hermosa.",
+            "Crece en el jardín.",
+            "Huele bien.",
+            "Las abejas la visitan."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Computadora",
+        "Pistas_Pictionary": [
+            "Tiene pantalla y teclado.",
+            "Sirve para trabajar o jugar.",
+            "Puede ser de escritorio o portátil.",
+            "Necesita electricidad."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Teléfono Móvil",
+        "Pistas_Pictionary": [
+            "Es un objeto que llevas en el bolsillo.",
+            "Sirve para hablar con personas a distancia.",
+            "Tiene una pantalla táctil.",
+            "Lo usas para llamar o enviar mensajes."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Coche",
+        "Pistas_Pictionary": [
+            "Tiene cuatro ruedas.",
+            "Se usa para viajar.",
+            "Necesita gasolina o electricidad.",
+            "Lo conduces por la calle."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Avión",
+        "Pistas_Pictionary": [
+            "Vuela por el cielo.",
+            "Tiene alas y motores.",
+            "Transporta personas a largas distancias.",
+            "Aterriza en un aeropuerto."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Bicicleta",
+        "Pistas_Pictionary": [
+            "Tiene dos ruedas.",
+            "Se mueve pedaleando.",
+            "No usa motor.",
+            "Sirve para transporte o ejercicio."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Correr",
+        "Pistas_Pictionary": [
+            "Moverse muy rápido con las piernas.",
+            "Se hace en una carrera.",
+            "Puedes hacerlo en el parque.",
+            "Es un tipo de ejercicio."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Comer",
+        "Pistas_Pictionary": [
+            "Llevar alimentos a la boca.",
+            "Usar cubiertos o las manos.",
+            "Se hace en la mesa.",
+            "Necesario para tener energía."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Dormir",
+        "Pistas_Pictionary": [
+            "Cerrar los ojos y descansar.",
+            "Se hace en una cama.",
+            "Es necesario por la noche.",
+            "Sirve para recargar energías."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Leer",
+        "Pistas_Pictionary": [
+            "Mirar letras y entenderlas.",
+            "Se hace con un libro o periódico.",
+            "Puedes aprender mucho haciéndolo.",
+            "Requiere silencio y concentración."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Saltar",
+        "Pistas_Pictionary": [
+            "Impulsarse con los pies y elevarse.",
+            "Se hace en un trampolín.",
+            "Los canguros lo hacen mucho.",
+            "Es divertido en la cuerda."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Bailar",
+        "Pistas_Pictionary": [
+            "Mover el cuerpo al ritmo de la música.",
+            "Se hace en una fiesta.",
+            "Puede ser en pareja o solo.",
+            "Hay muchos estilos diferentes."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Cantar",
+        "Pistas_Pictionary": [
+            "Emitir sonidos melódicos con la voz.",
+            "Se hace con una canción.",
+            "Puedes hacerlo en la ducha.",
+            "Necesitas una buena afinación."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Escribir",
+        "Pistas_Pictionary": [
+            "Poner letras en papel o pantalla.",
+            "Usar un lápiz o teclado.",
+            "Sirve para comunicar ideas.",
+            "Es una habilidad importante."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Nadar",
+        "Pistas_Pictionary": [
+            "Moverse en el agua.",
+            "Se hace en la piscina o el mar.",
+            "Usar brazos y piernas.",
+            "Es un deporte acuático."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Cocinar",
+        "Pistas_Pictionary": [
+            "Preparar alimentos con calor.",
+            "Se hace en la cocina.",
+            "Usar sartenes y ollas.",
+            "Crear deliciosos platillos."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Ajedrez",
+        "Pistas_Pictionary": [
+            "Es un juego de mesa.",
+            "Se juega con piezas blancas y negras.",
+            "Necesitas estrategia para ganar.",
+            "El objetivo es dar 'jaque mate'."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Microscopio",
+        "Pistas_Pictionary": [
+            "Sirve para ver cosas muy pequeñas.",
+            "Tiene lentes de aumento.",
+            "Se usa en laboratorios.",
+            "Permite observar células."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Telescopio",
+        "Pistas_Pictionary": [
+            "Sirve para ver objetos lejanos.",
+            "Se usa para observar estrellas y planetas.",
+            "Tiene lentes o espejos grandes.",
+            "Se apunta al cielo por la noche."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Brújula",
+        "Pistas_Pictionary": [
+            "Es un instrumento para orientarse.",
+            "Tiene una aguja que apunta al norte.",
+            "Se usa en expediciones.",
+            "Ayuda a no perderse."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Dron",
+        "Pistas_Pictionary": [
+            "Es un aparato volador.",
+            "Se controla a distancia.",
+            "Tiene hélices y a menudo una cámara.",
+            "Puede tomar fotos desde el aire."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Filosofar",
+        "Pistas_Pictionary": [
+            "Pensar profundamente sobre la vida.",
+            "Hacerse preguntas importantes.",
+            "Reflexionar sobre el sentido de las cosas.",
+            "No siempre hay una respuesta clara."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Investigar",
+        "Pistas_Pictionary": [
+            "Buscar información y datos.",
+            "Hacer preguntas y experimentos.",
+            "Se hace en la biblioteca o internet.",
+            "Sirve para descubrir algo nuevo."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Meditación",
+        "Pistas_Pictionary": [
+            "Sentarse en silencio y concentrarse.",
+            "Tratar de calmar la mente.",
+            "Ayuda a reducir el estrés.",
+            "Puede hacerse con los ojos cerrados."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Negociar",
+        "Pistas_Pictionary": [
+            "Discutir para llegar a un acuerdo.",
+            "Ofrecer algo a cambio de otra cosa.",
+            "Se hace en el comercio o en la vida.",
+            "Buscar un punto medio."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Programar",
+        "Pistas_Pictionary": [
+            "Escribir instrucciones para una computadora.",
+            "Crear un software o aplicación.",
+            "Usa códigos y lenguajes especiales.",
+            "Es como darle órdenes a una máquina."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "General",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Pintar",
+        "Pistas_Pictionary": [
+            "Usar pinceles y colores.",
+            "Crear una obra de arte.",
+            "Puede ser sobre un lienzo o papel.",
+            "Expresar creatividad con formas y tonos."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Jugar",
+        "Pistas_Pictionary": [
+            "Hacer actividades divertidas.",
+            "Puede ser con amigos o juguetes.",
+            "Los niños lo hacen mucho.",
+            "Es una forma de entretenerse."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Dibujar",
+        "Pistas_Pictionary": [
+            "Trazar líneas y formas.",
+            "Usar lápiz o crayones.",
+            "Crear imágenes en papel.",
+            "Es una forma de arte."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Caminar",
+        "Pistas_Pictionary": [
+            "Moverse paso a paso.",
+            "Se hace con las piernas.",
+            "Puedes ir al parque a hacerlo.",
+            "Es una forma de ejercicio suave."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Reír",
+        "Pistas_Pictionary": [
+            "Hacer sonidos de alegría.",
+            "Mover la boca y la cara.",
+            "Pasa cuando algo es gracioso.",
+            "Es contagioso y te hace sentir bien."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Columpio",
+        "Pistas_Pictionary": [
+            "Es un asiento que cuelga.",
+            "Se balancea hacia adelante y hacia atrás.",
+            "Se encuentra en el parque.",
+            "Sirve para jugar y divertirse."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Muñeca",
+        "Pistas_Pictionary": [
+            "Es un juguete con forma de persona.",
+            "Puede tener ropa y accesorios.",
+            "A muchos niños les gusta jugar con ella.",
+            "Hecha de plástico o tela."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Pelota",
+        "Pistas_Pictionary": [
+            "Es redonda y se usa para jugar.",
+            "Puede rebotar.",
+            "Se usa en muchos deportes.",
+            "De diferentes tamaños y colores."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Crayola",
+        "Pistas_Pictionary": [
+            "Sirve para pintar y dibujar.",
+            "Viene en muchos colores.",
+            "Es un cilindro de cera.",
+            "Deja una marca de color."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Bloques de construcción",
+        "Pistas_Pictionary": [
+            "Son piezas de diferentes formas.",
+            "Se unen para crear estructuras.",
+            "Ayudan a construir casas o torres.",
+            "Vienen en sets y son de plástico o madera."
+        ],
+        "Dificultad": "facil",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Carrusel",
+        "Pistas_Pictionary": [
+            "Es una atracción de feria.",
+            "Gira en círculos.",
+            "Tiene caballos y otros animales.",
+            "Los niños se suben para divertirse."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Cuento de hadas",
+        "Pistas_Pictionary": [
+            "Es una historia mágica.",
+            "Tiene princesas, príncipes y dragones.",
+            "Se lee antes de dormir.",
+            "Suele tener un final feliz."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Rompecabezas",
+        "Pistas_Pictionary": [
+            "Es un juego de piezas que encajan.",
+            "Forma una imagen cuando está completo.",
+            "Ayuda a pensar y concentrarse.",
+            "Puede tener pocas o muchas piezas."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Marioneta",
+        "Pistas_Pictionary": [
+            "Es un muñeco que se mueve con hilos.",
+            "Un titiritero la controla.",
+            "Actúa en un teatro pequeño.",
+            "Puede tener diferentes expresiones."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Tobogán",
+        "Pistas_Pictionary": [
+            "Es una estructura en el parque.",
+            "Los niños se deslizan por ella.",
+            "Puede ser recto o en espiral.",
+            "Bajas rápidamente y caes suave."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Construir",
+        "Pistas_Pictionary": [
+            "Armar algo pieza por pieza.",
+            "Usar herramientas y materiales.",
+            "Puede ser una torre o una casa.",
+            "Requiere planificar y unir."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Explorar",
+        "Pistas_Pictionary": [
+            "Buscar y descubrir lugares nuevos.",
+            "Ir a un sitio desconocido.",
+            "Puede ser en un mapa o en la vida real.",
+            "Implica curiosidad y aventura."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Imaginar",
+        "Pistas_Pictionary": [
+            "Crear cosas en la mente.",
+            "Pensar en mundos o personajes.",
+            "No necesitas un lápiz para hacerlo.",
+            "Es la base de la creatividad."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Compartir",
+        "Pistas_Pictionary": [
+            "Dar parte de algo a otra persona.",
+            "Puede ser comida o juguetes.",
+            "Es un acto de generosidad.",
+            "Hacer felices a los demás."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Clasificar",
+        "Pistas_Pictionary": [
+            "Organizar cosas por categorías.",
+            "Poner objetos juntos según sus características.",
+            "Puede ser por color, tamaño o forma.",
+            "Es útil para mantener el orden."
+        ],
+        "Dificultad": "medio",
+        "Audiencia": "Niños",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Invertir",
+        "Pistas_Pictionary": [
+            "Poner dinero para ganar más.",
+            "Asociado a acciones o negocios.",
+            "Implica un riesgo.",
+            "Se busca un retorno o beneficio."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Hipoteca",
+        "Pistas_Pictionary": [
+            "Es un tipo de préstamo grande.",
+            "Se usa para comprar una casa.",
+            "Se paga a un banco por muchos años.",
+            "Tiene una tasa de interés."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Impuesto",
+        "Pistas_Pictionary": [
+            "Es un pago obligatorio al gobierno.",
+            "Se calcula sobre ingresos o compras.",
+            "Financia servicios públicos.",
+            "Hay que declararlo anualmente."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Plan de pensiones",
+        "Pistas_Pictionary": [
+            "Es un ahorro para la jubilación.",
+            "Se deposita dinero regularmente.",
+            "Sirve para cuando dejas de trabajar.",
+            "Asegura un ingreso futuro."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Bolsa de valores",
+        "Pistas_Pictionary": [
+            "Es un mercado financiero.",
+            "Se compran y venden acciones de empresas.",
+            "Sus valores suben y bajan.",
+            "Está relacionada con la economía global."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Contrato",
+        "Pistas_Pictionary": [
+            "Es un documento legal.",
+            "Establece acuerdos entre partes.",
+            "Requiere firmas para ser válido.",
+            "Tiene cláusulas y condiciones."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Seguro de vida",
+        "Pistas_Pictionary": [
+            "Es una póliza financiera.",
+            "Protege a la familia si algo te sucede.",
+            "Implica pagos regulares.",
+            "Ofrece una suma de dinero en caso de fallecimiento."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Acta de matrimonio",
+        "Pistas_Pictionary": [
+            "Es un documento oficial.",
+            "Registra la unión legal de dos personas.",
+            "Se obtiene después de una boda.",
+            "Confirma el estado civil."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Juicio",
+        "Pistas_Pictionary": [
+            "Es un proceso legal.",
+            "Se celebra en un tribunal.",
+            "Hay jueces, abogados y testigos.",
+            "Busca determinar la culpabilidad o inocencia."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Retiro (laboral)",
+        "Pistas_Pictionary": [
+            "Es el fin de la vida laboral.",
+            "Se deja de trabajar por edad o decisión.",
+            "Se empieza a disfrutar de la pensión.",
+            "Es un momento de descanso después de años de esfuerzo."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Objeto"
+    },
+    {
+        "Elemento": "Declarar impuestos",
+        "Pistas_Pictionary": [
+            "Presentar un informe anual al gobierno.",
+            "Detallar ingresos y gastos.",
+            "Puede resultar en un pago o devolución.",
+            "Se hace en una fecha límite."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Gestionar",
+        "Pistas_Pictionary": [
+            "Administrar recursos o proyectos.",
+            "Organizar tareas y personas.",
+            "Implica tomar decisiones.",
+            "Buscar la eficiencia y el éxito."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Ahorrar",
+        "Pistas_Pictionary": [
+            "Guardar dinero para el futuro.",
+            "No gastar todo lo que se tiene.",
+            "Se puede hacer en un banco.",
+            "Importante para metas grandes."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Presupuestar",
+        "Pistas_Pictionary": [
+            "Planificar gastos y ingresos.",
+            "Asignar dinero a diferentes categorías.",
+            "Ayuda a controlar las finanzas.",
+            "Evita gastar más de lo que se tiene."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Cotejar",
+        "Pistas_Pictionary": [
+            "Comparar dos o más cosas.",
+            "Buscar diferencias o similitudes.",
+            "Se hace para verificar información.",
+            "Es un proceso de revisión detallada."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Inaugurar",
+        "Pistas_Pictionary": [
+            "Dar inicio oficial a algo nuevo.",
+            "Puede ser un edificio o un evento.",
+            "Hay un corte de cinta o un discurso.",
+            "Marca el comienzo de una actividad."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Jubilarse",
+        "Pistas_Pictionary": [
+            "Terminar la vida laboral.",
+            "Dejar de trabajar después de muchos años.",
+            "Se empieza a recibir una pensión.",
+            "Es un momento de descanso."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Analizar",
+        "Pistas_Pictionary": [
+            "Examinar algo en detalle.",
+            "Descomponerlo en partes para entenderlo.",
+            "Buscar patrones o causas.",
+            "Se hace para tomar decisiones informadas."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Debatir",
+        "Pistas_Pictionary": [
+            "Discutir un tema con diferentes puntos de vista.",
+            "Presentar argumentos y contraargumentos.",
+            "Se hace en foros o parlamentos.",
+            "El objetivo es persuadir o aclarar."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    },
+    {
+        "Elemento": "Reformar",
+        "Pistas_Pictionary": [
+            "Cambiar algo para mejorarlo.",
+            "Puede ser una casa o una ley.",
+            "Implica renovar o ajustar.",
+            "Se busca una mejora significativa."
+        ],
+        "Dificultad": "dificil",
+        "Audiencia": "Adultos",
+        "Tipo": "Acción"
+    }
+]

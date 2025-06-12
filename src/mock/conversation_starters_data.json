@@ -1,0 +1,122 @@
+[
+    {
+        "Tema": "¿Cuál es tu comida favorita para pedir en un restaurante?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Qué superpoder te gustaría tener y por qué?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "Si pudieras viajar a cualquier lugar del mundo, ¿a dónde irías primero?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Cuál es el mejor consejo que has recibido?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Qué es lo más divertido que has hecho esta semana?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Tienes alguna mascota? Si no, ¿cuál te gustaría tener?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Cuál es tu canción favorita en este momento?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Qué película o serie te ha gustado últimamente?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Hay algo nuevo que hayas aprendido recientemente?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Qué actividad disfrutas hacer cuando tienes tiempo libre?",
+        "Audiencia": "General"
+    },
+    {
+        "Tema": "¿Qué es lo que más te gusta de la escuela/guardería?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Si tuvieras un dinosaurio de mascota, cómo se llamaría?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Cuál es tu juego favorito para jugar con tus amigos?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Qué personaje de cuento de hadas o superhéroe te gustaría ser?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Si pudieras comer solo un tipo de dulce por siempre, cuál sería?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Cuál es el regalo más divertido que has recibido?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Qué te hace reír mucho?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Si pudieras diseñar tu propia casa del árbol, cómo sería?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Qué te gustaría ser cuando seas grande?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Cuál es tu animal favorito y por qué?",
+        "Audiencia": "Niños"
+    },
+    {
+        "Tema": "¿Cuál ha sido el mayor desafío que has superado profesionalmente?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Qué consejo le darías a tu 'yo' más joven?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Cuál es una habilidad que te gustaría aprender o mejorar?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Qué libro, podcast o documental recomiendas mucho?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Cuál es tu destino de vacaciones soñado que aún no has visitado?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Qué te apasiona fuera del trabajo?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Hay alguna causa o tema social que te importe mucho?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Cuál es el invento o avance tecnológico que más te ha impresionado?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Qué cualidad valoras más en las personas?",
+        "Audiencia": "Adultos"
+    },
+    {
+        "Tema": "¿Hay algo que te haga sentir agradecido últimamente?",
+        "Audiencia": "Adultos"
+    }
+]
