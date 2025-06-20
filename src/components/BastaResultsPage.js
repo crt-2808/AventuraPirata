@@ -1,5 +1,3 @@
-// src/components/BastaResultsPage.js
-
 import React, { useState } from 'react';
 
 function BastaResultsPage({ playersWithIcons, onPlayAgain, onExitGameToSelector }) {
@@ -49,7 +47,7 @@ function BastaResultsPage({ playersWithIcons, onPlayAgain, onExitGameToSelector 
 
   if (showWinnerScreen) {
     return (
-      <div className="game-container bg-white p-6 rounded-lg shadow-md text-center">
+      <div className="bg-white p-6 rounded-lg shadow-md text-center w-full max-w-screen-xl mx-auto">
         <h2 className="text-3xl font-bold mb-6 text-gray-800">¡El ganador es...</h2>
         <p className="text-5xl font-extrabold text-purple-700 mb-8 animate-bounce">{winner}!</p>
         <div className="flex justify-center space-x-4">
@@ -70,41 +68,26 @@ function BastaResultsPage({ playersWithIcons, onPlayAgain, onExitGameToSelector 
     );
   }
 
-  const MAX_USERS_PER_COLUMN = 4;
-  const numPlayers = playerScores.length;
-  const numColumns = Math.max(1, Math.ceil(numPlayers / MAX_USERS_PER_COLUMN));
-
-  const gridContainerStyle = {
-    gridTemplateRows: `repeat(${MAX_USERS_PER_COLUMN}, 1fr)`,
-    gridAutoFlow: 'column',
-    gridTemplateColumns: `repeat(${numColumns}, minmax(180px, 1fr))`,
-    alignContent: 'start', // Alinea las filas al inicio del contenedor grid
-    justifyContent: 'center', // Centra las columnas si no llenan el ancho total
-    alignItems: 'start', // Alinea las tarjetas al inicio de su celda verticalmente
-  };
-
   return (
-    // CONTENEDOR BLANCO PRINCIPAL
-    // QUITAMOS 'text-center' de aquí para que solo afecte al título, no a todo el contenido,
-    // y ajustamos el flexbox.
-    <div className="game-container bg-white p-6 rounded-lg shadow-md max-w-7xl mx-auto flex flex-col"> {/* Quité 'items-center' aquí */}
-      <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">Resultados de la ronda</h2> {/* Añadí 'text-center' al h2 */}
+    <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-screen-xl mx-auto">
+      <h2 className="text-3xl font-bold mb-6 text-gray-800 text-center">Resultados de la ronda</h2>
 
-      {/* Aquí el grid de las tarjetas */}
-      <div
-        className="grid gap-4 w-full justify-center" // Añadí 'justify-center' para centrar el grid horizontalmente si las columnas no llenan el ancho
-        style={gridContainerStyle}
-      >
+      {/* CONTENEDOR FLEX ENVOLVENTE */}
+      <div className="flex flex-wrap justify-center gap-4 w-full">
         {playerScores.map(player => (
           <div
             key={player.playerId}
-            className="bg-gray-100 p-4 rounded-lg shadow-sm flex flex-col items-center justify-between w-full h-auto max-w-[180px] mx-auto"
+            className="bg-gray-100 p-4 rounded-lg shadow-sm flex flex-col items-center justify-between min-h-[250px] w-[180px]"
           >
-            <img src={player.iconUrl} alt={player.playerId} className="w-16 h-16 rounded-full mb-3 object-cover border-2 border-yellow-500" />
+            <img
+              src={player.iconUrl}
+              alt={player.playerId}
+              className="w-16 h-16 rounded-full mb-3 object-cover border-2 border-yellow-500"
+            />
             <span className="text-xl font-semibold text-gray-800 mb-2 text-center break-words overflow-hidden max-h-16 leading-tight">
               {player.playerId}
             </span>
-            <div className="flex items-center space-x-3 mt-auto">
+            <div className="flex items-center space-x-3 mt-auto pb-4">
               <button
                 onClick={() => handleScoreChange(player.playerId, -25)}
                 className="bg-red-400 hover:bg-red-500 text-white font-bold py-1 px-3 rounded-full text-lg disabled:opacity-50 disabled:cursor-not-allowed"
@@ -124,8 +107,8 @@ function BastaResultsPage({ playersWithIcons, onPlayAgain, onExitGameToSelector 
         ))}
       </div>
 
-      {/* Contenedor del botón "Terminar Ronda" */}
-      <div className="flex justify-center space-x-4 mt-8 w-full"> {/* Aseguramos que el div del botón también ocupe el ancho completo para centrado */}
+      {/* BOTÓN FINAL */}
+      <div className="flex justify-center mt-8 w-full">
         <button
           onClick={handleFinishRound}
           className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300"
