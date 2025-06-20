@@ -17,6 +17,7 @@
             "tailwindcss-animate": "^1.0.7"
       },
       "main": "/index.js",
+      "proxy": "https://rae-api.com", 
       "browserslist": {
             "production": [
                   ">0.2%",

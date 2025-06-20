@@ -1,53 +1,43 @@
 // src/components/GameSelector.js
 
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
-// Asegúrate de que recibes onSelectGameType (¡No onGameSelected!) y onBack como props
-function GameSelector({ onSelectGameType, onBack }) { // <-- ¡Cambio aquí!
-  const navigate = useNavigate();
-
-  const handleBackClick = () => {
-    if (onBack) {
-      onBack();
-    } else {
-      navigate(-1);
-    }
-  };
-
+function GameSelector({ onSelectGameType, onBack, isDemoMode }) { // Recibe isDemoMode
   return (
-    <div className="game-selector-container bg-white p-6 rounded-lg shadow-md text-center">
+    <div className="game-container bg-white p-6 rounded-lg shadow-md text-center relative">
       <button
-        onClick={handleBackClick}
+        onClick={onBack}
         className="absolute top-4 left-4 bg-gray-200 hover:bg-gray-300 p-2 rounded-full text-xl"
       >
         &#8592;
       </button>
 
-      <h2 className="text-2xl font-bold mb-4 text-gray-800">Elige tu tipo de batalla</h2>
+      <h2 className="text-2xl font-bold mb-6 text-gray-800">¿Qué tipo de juego buscáis, camaradas?</h2>
 
       <div className="space-y-4">
         <button
-          onClick={() => onSelectGameType('Juego Creativo')} // <-- ¡Cambio aquí!
-          className="w-full py-4 px-6 rounded-lg bg-purple-200 text-purple-800 font-bold text-lg hover:bg-purple-300 transition duration-300 flex items-center justify-center"
+          onClick={() => onSelectGameType('creative')}
+          className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300"
         >
-          <span role="img" aria-label="Creative Games icon" className="mr-2 text-2xl">🎨</span>
           Juegos Creativos
         </button>
+
         <button
-          onClick={() => onSelectGameType('Juego Verbal')} // <-- ¡Cambio aquí!
-          className="w-full py-4 px-6 rounded-lg bg-green-200 text-green-800 font-bold text-lg hover:bg-green-300 transition duration-300 flex items-center justify-center"
+          onClick={() => onSelectGameType('physical')}
+          className="w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300"
         >
-          <span role="img" aria-label="Verbal Games icon" className="mr-2 text-2xl">💬</span>
-          Juegos Verbales
-        </button>
-        <button
-          onClick={() => onSelectGameType('Juego Físico')} // <-- ¡Cambio aquí!
-          className="w-full py-4 px-6 rounded-lg bg-orange-200 text-orange-800 font-bold text-lg hover:bg-orange-300 transition duration-300 flex items-center justify-center"
-        >
-          <span role="img" aria-label="Physical Games icon" className="mr-2 text-2xl">🤸</span>
           Juegos Físicos
         </button>
+
+        {/* Solo mostrar el botón "Juegos Verbales" si NO estamos en modo Demo */}
+        {!isDemoMode && (
+          <button
+            onClick={() => onSelectGameType('verbal')}
+            className="w-full bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300"
+          >
+            Juegos Verbales
+          </button>
+        )}
       </div>
     </div>
   );

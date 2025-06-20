@@ -1,84 +1,93 @@
 // src/components/PlayerCounter.js
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-// Asegúrate de que las props que recibes incluyan onEmbark, adultPlayers y childPlayers
-function PlayerCounter({ onEmbark, adultPlayers: initialAdults = 0, childPlayers: initialChildren = 0 }) {
-  // Estados internos para el contador de jugadores
-  const [totalPlayers, setTotalPlayers] = useState(initialAdults + initialChildren);
-  const [adults, setAdults] = useState(initialAdults);
-  const [children, setChildren] = useState(initialChildren);
+function PlayerCounter({ onEmbark, onDemo, adultPlayers, childPlayers }) { // Recibe onDemo
+  const totalPlayers = adultPlayers + childPlayers;
 
-  // useEffect para actualizar el total cuando cambian adultos o niños
-  useEffect(() => {
-    setTotalPlayers(adults + children);
-  }, [adults, children]);
-
+  // Funciones para manejar los clics de los botones de cantidad
   const handleAdultChange = (change) => {
-    setAdults(prevAdults => Math.max(0, prevAdults + change));
+    const newCount = Math.max(0, adultPlayers + change);
+    onEmbark(newCount, childPlayers);
   };
 
   const handleChildChange = (change) => {
-    setChildren(prevChildren => Math.max(0, prevChildren + change));
+    const newCount = Math.max(0, childPlayers + change);
+    onEmbark(adultPlayers, newCount);
   };
 
-  // Función para manejar el clic en "¡Embarcar!"
-  const handleEmbarkClick = () => {
-    // Llama a la prop onEmbark pasando los valores actuales de adultos y niños
-    if (onEmbark) {
-      onEmbark(adults, children);
-    }
-  };
+  // Deshabilitar botón "Embarcar" si no hay jugadores
+  const isEmbarkDisabled = totalPlayers === 0;
 
   return (
-    <div className="player-counter-container bg-white p-6 rounded-lg shadow-md text-center">
+    <div className="game-container bg-white p-6 rounded-lg shadow-md text-center">
       <h2 className="text-2xl font-bold mb-4 text-gray-800">¿Cuántos piratas jugarán?</h2>
-      <div className="mb-4">
-        <p className="text-gray-600">Total de jugadores:</p>
-        <span className="text-4xl font-extrabold text-blue-600">{totalPlayers}</span>
+
+      <div className="mb-6">
+        <p className="text-lg text-gray-600 mb-2">Total de jugadores:</p>
+        <p className="text-5xl font-extrabold text-blue-700">{totalPlayers}</p>
       </div>
 
-      <div className="flex justify-around items-center mb-4">
-        <p className="text-gray-700">Adultos:</p>
-        <button
-          onClick={() => handleAdultChange(-1)}
-          className="bg-blue-500 text-white px-3 py-1 rounded-full text-xl font-bold"
-        >
-          -
-        </button>
-        <span className="text-2xl font-bold mx-2">{adults}</span>
-        <button
-          onClick={() => handleAdultChange(1)}
-          className="bg-blue-500 text-white px-3 py-1 rounded-full text-xl font-bold"
-        >
-          +
-        </button>
+      <div className="space-y-4 mb-8">
+        {/* Adultos */}
+        <div className="flex items-center justify-between bg-gray-100 p-3 rounded-lg">
+          <span className="text-xl font-semibold text-gray-700">Adultos:</span>
+          <div className="flex items-center space-x-3">
+            <button
+              onClick={() => handleAdultChange(-1)}
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full text-2xl disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={adultPlayers === 0}
+            >
+              -
+            </button>
+            <span className="text-3xl font-bold text-blue-700 w-10">{adultPlayers}</span>
+            <button
+              onClick={() => handleAdultChange(1)}
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full text-2xl"
+            >
+              +
+            </button>
+          </div>
+        </div>
+
+        {/* Niños */}
+        <div className="flex items-center justify-between bg-gray-100 p-3 rounded-lg">
+          <span className="text-xl font-semibold text-gray-700">Niños:</span>
+          <div className="flex items-center space-x-3">
+            <button
+              onClick={() => handleChildChange(-1)}
+              className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-2xl disabled:opacity-50 disabled:cursor-not-allowed"
+              disabled={childPlayers === 0}
+            >
+              -
+            </button>
+            <span className="text-3xl font-bold text-yellow-700 w-10">{childPlayers}</span>
+            <button
+              onClick={() => handleChildChange(1)}
+              className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 rounded-full text-2xl"
+            >
+              +
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div className="flex justify-around items-center mb-6">
-        <p className="text-gray-700">Niños:</p>
+      {/* Botones de acción */}
+      <div className="flex justify-center space-x-4"> {/* Contenedor flex para los botones */}
         <button
-          onClick={() => handleChildChange(-1)}
-          className="bg-yellow-500 text-white px-3 py-1 rounded-full text-xl font-bold"
+          onClick={() => onEmbark(adultPlayers, childPlayers)}
+          className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+          disabled={isEmbarkDisabled}
         >
-          -
+          ¡Embarcar!
         </button>
-        <span className="text-2xl font-bold mx-2">{children}</span>
         <button
-          onClick={() => handleChildChange(1)}
-          className="bg-yellow-500 text-white px-3 py-1 rounded-full text-xl font-bold"
+          onClick={onDemo} // <--- ¡AQUÍ ESTÁ DE NUEVO EL BOTÓN "DEMO"!
+          className="bg-gray-600 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg text-xl transition duration-300"
         >
-          +
+          Demo
         </button>
       </div>
-
-      {/* Botón "¡Embarcar!" - Ahora llama a handleEmbarkClick */}
-      <button
-        onClick={handleEmbarkClick}
-        className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300"
-      >
-        ¡Embarcar!
-      </button>
     </div>
   );
 }

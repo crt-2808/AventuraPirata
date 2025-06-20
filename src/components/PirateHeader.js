@@ -1,11 +1,25 @@
-const PirateHeader = () => {
+// src/components/PirateHeader.js
+
+import React from 'react';
+import aventuraPirataLogo from '../img/Aventura Pirata icon.png'; // Ruta a tu logo
+
+function PirateHeader() {
   return (
-    <div className="bg-amber-900 py-6 px-4 rounded-b-xl shadow-lg relative overflow-hidden">
-      <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-7xl text-amber-300">⚓</div>
-      <div className="absolute top-1/2 right-4 transform -translate-y-1/2 text-7xl text-amber-300">🏴‍☠️</div>
-      <h1 className="text-5xl font-bold text-amber-300 text-center relative z-10">Aventura Pirata</h1>
-      <p className="text-amber-100 text-center mt-2 relative z-10">¡Encuentra tu tesoro!</p>
-    </div>
+    // Hemos quitado 'overflow-hidden' del header.
+    // Mantenemos una altura fija para el header (ej. h-40) para que el bloque naranja no se estire con la imagen,
+    // pero la imagen ahora puede sobresalir.
+    // flex, items-center y justify-center para centrar el contenido (el logo).
+    <header className="bg-orange-800 text-white p-4 rounded-lg shadow-md flex items-center justify-center h-40"> {/* Ajusta h-40 a la altura deseada para el bloque naranja */}
+      <img
+        src={aventuraPirataLogo}
+        alt="Aventura Pirata Logo"
+        // Le damos a la imagen una altura mayor que la del header (ej. h-64 o más).
+        // 'w-auto' para mantener proporciones.
+        // 'object-contain' para que la imagen se vea completa aunque sobresalga.
+        className="h-64 w-auto object-contain" // Puedes ajustar h-64 para que sobresalga más o menos
+      />
+    </header>
   );
-};
+}
+
 export default PirateHeader;
